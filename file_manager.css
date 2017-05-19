@@ -1,0 +1,58 @@
+.file_manager_thumbs_container > div {
+    margin-left: 57px;
+    display: inline-block;
+}
+
+.file_manager_img_thumb {
+    float: left;
+    width: 200px;
+    height: 215px;
+    outline: 1px solid #ccc;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+}
+
+.file_manager_img_thumb > img {
+    max-width: 100%;
+    max-height: 90%;
+    display: inline-block;
+}
+
+.file_manager_img_thumb > div {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+}
+
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+}
+
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+div.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
